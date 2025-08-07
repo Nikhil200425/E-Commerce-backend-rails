@@ -9,5 +9,7 @@
 #   end
 Product.create([
   { name: "Shirt", description: "Cotton Shirt", price: 49.99, img_url: "https://images.bewakoof.com/t1080/men-s-red-grey-checked-oversized-shirt-649868-1753186766-1.jpg" },
-  { name: "T-shirt", description: "Cool t-shirt", price: 19.99, img_url: "https://images.bewakoof.com/t1080/men-s-black-hangin-astronaut-graphic-printed-oversized-t-shirt-504166-1741325888-1.jpg" }
+  { name: "T-shirt", description: "Cool t-shirt", price: 19.99, img_url: "https://images.bewakoof.com/t1080/men-s-black-hangin-astronaut-graphic-printed-oversized-t-shirt-504166-1741325888-1.jpg" },
+  { name: "T-shirt", description: "Cool t-shirt", price: 19.99, img_url: "https://images.bewakoof.com/t1080/men-s-white-wander-geometry-t-shirt-391327-1655746849-2.jpg" },
+  { name: "T-shirt", description: "Cool t-shirt", price: 19.99, img_url: "https://images.bewakoof.com/t1080/men-s-navy-blue-checked-oversized-shirt-646399-1753174967-1.jpg" }
 ])
