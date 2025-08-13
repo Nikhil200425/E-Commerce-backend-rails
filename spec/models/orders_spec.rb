@@ -20,7 +20,7 @@ RSpec.describe Order, type: :model do
         name: nil,
         address: 'Mumbai',
         email: 'nikhil@example.com',
-        items: [{ id: 1, name: 'T-Shirt', price: '499.0' }]
+        items: [ { id: 1, name: 'T-Shirt', price: '499.0' } ]
       )
       expect(order).to_not be_valid
     end
@@ -30,7 +30,7 @@ RSpec.describe Order, type: :model do
         name: 'Nikhil',
         address: nil,
         email: 'nikhil@example.com',
-        items: [{ id: 1, name: 'T-Shirt', price: '499.0' }]
+        items: [ { id: 1, name: 'T-Shirt', price: '499.0' } ]
       )
       expect(order).to_not be_valid
     end
@@ -40,7 +40,7 @@ RSpec.describe Order, type: :model do
         name: 'Nikhil',
         address: 'Mumbai',
         email: nil,
-        items: [{ id: 1, name: 'T-Shirt', price: '499.0' }]
+        items: [ { id: 1, name: 'T-Shirt', price: '499.0' } ]
       )
       expect(order).to_not be_valid
     end

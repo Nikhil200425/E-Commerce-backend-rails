@@ -8,11 +8,11 @@ class OrdersController < ApplicationController
         if order.save
             render json: order, status: :created
         else
-            render json: {error: "Error"}, status: :ok
+            render json: { error: "Error" }, status: :ok
         end
     end
     private
     def order_params
-        params.require(:order).permit(:name, :address, :email, items: [:id, :name, :price])
+        params.require(:order).permit(:name, :address, :email, items: [ :id, :name, :price ])
     end
 end
